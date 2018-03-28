@@ -1,0 +1,344 @@
+<!--
+Author: Akshit Chauhan
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>MICROSOFT TALENT INDIA</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<style type="text/css">@import url("css/style.css");</style>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- Custom Theme files -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Pioneer Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <!------ Light Box ------>
+    <link rel="stylesheet" href="css/swipebox.css">
+    <script src="js/jquery.swipebox.min.js"></script> 
+    <script type="text/javascript">
+		jQuery(function($) {
+			$(".swipebox").swipebox();
+		});
+	</script>
+    <!------ Eng Light Box ------>	
+	  <!-- Script for gallery Here -->
+				<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+					<script type="text/javascript">
+					$(function () {
+						
+						var filterList = {
+						
+							init: function () {
+							
+								// MixItUp plugin
+								// http://mixitup.io
+								$('#portfoliolist').mixitup({
+									targetSelector: '.portfolio',
+									filterSelector: '.filter',
+									effects: ['fade'],
+									easing: 'snap',
+									// call the hover effect
+									onMixEnd: filterList.hoverEffect()
+								});				
+							
+							},
+							
+							hoverEffect: function () {
+							
+								// Simple parallax effect
+								$('#portfoliolist .portfolio').hover(
+									function () {
+										$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+										$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+									},
+									function () {
+										$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+										$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+									}		
+								);				
+							
+							}
+				
+						};
+						
+						// Run the show!
+						filterList.init();
+						
+						
+					});	
+					</script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+<!---css-style-switecher----->
+		<script type="text/javascript" src="js/jsapi"></script>
+		<script>
+		google.setOnLoadCallback(function()
+			{
+			    // Color changer
+			    $(".colorblue").click(function(){
+			        $("link").attr("href", "css/blue.css");
+			        return false;
+			    });
+			    
+			    $(".colorrose").click(function(){
+			        $("link").attr("href", "css/rose.css");
+			        return false;
+			    });
+			    
+			    $(".colorgreen").click(function(){
+			        $("link").attr("href", "css/green.css");
+			        return false;
+			    });
+			
+			});
+		</script>
+		<!---//End-css-style-switecher----->
+</head>
+<body>
+	<!-- header-section-starts -->
+	<div class="header" id="home">
+		<div class="container">
+			<div class="header-top">
+				<div class="logo">
+					<a href="index.html"><img src=" " alt="" /></a>
+				</div>
+				<div class="top-menu">
+				<span class="menu"> </span>
+					<ul>
+						<li><a href="index.html" >Home</a></li>
+						<li><a class="scroll" href="#services">MICROSOFT TALENT INDIA 2014</a></li>
+						<li><a class="scroll" href="#portfolio">Event Snapshots</a></li>
+						
+					</ul>
+				</div>
+						<!-- script-for-menu -->
+						<script>
+							$("span.menu").click(function(){
+								$(".top-menu ul").slideToggle("slow" , function(){
+								});
+							});
+						</script>
+						<!-- script-for-menu -->
+				<div class="clearfix"></div>
+			</div>
+
+	<div id="colorchanger">
+			<a class="colorbox colorblue" href="?theme=blue" title="blue Theme"> </a>
+           <a class="colorbox colorrose" href="?theme=rose" title="rose Theme"> </a>
+           <a class="colorbox colorgreen" href="?theme=green" title="green Theme"> </a>
+       </div>
+
+			<div class="header-info text-center">
+				<h1></h1>
+				<p></p>
+				<a class="scroll" href="#services"></a>
+			</div>
+		</div>
+	</div>
+	<div class="main-part">
+		<div class="services-section" id="services">
+			<div class="container">
+				<div class="services-section-head text-center">
+					<h3>MICROSOFT TALENT INDIA 2014</h3>
+				</div>
+							<br><br><p>Students of Dronacharya College of Engineering got this unforgettable opportunity to attend a Microsoft Event: Talent India 2014 at hotel Taj Palace on 0th September 2014. The event started off by the inspiring and motivational speech by Mr. Satya Nadella, CEO Microsoft. The hall exhibited tremendous energy as he addressed the youth of India. He was followed by yet another informational address by the youngest minister in the priminsterial cabinet Mrs. Smriti Irani, HRD Minister. She detailed various policies introduced and to be introduced by the government.<br><br>
+Then the students got a chance to listen to MS. Rane Johnson, Research Head, Microsoft wherein she discussed her journey to becoming the research head of Microsoft. Lastly the event was concluded with the motivational words of Mr. Bhaskar Pramanik, Chairman at Microsoft India. He discussed various achievements, roadmaps and new technologies introduced by Microsoft.
+Shared below are the details of the speech delivered by the dignitaries.<br><br>
+<u><strong>Satya Nadella on his 'surreal' journey</u></strong><br><br>
+Nadella, who is only the third CEO that Bill Gates-founded Microsoft has had in its nearly four-decades-long history, said businesses were looking forward to an accelerated growth phase in India and technology could play a pivotal role in spurring that growth. "Growth will need computing infrastructure on a massive scale," he said.<br><br>
+Hyderabad-born Nadella, who studied engineering at Manipal University and was part of the early wave of engineers who moved to the US, said his journey from "home here in India to Microsoft" where he has spent 22 years was "incredible and humbling".
+He urged the present lot of engineers in India seeking technology careers to be bold and tenacious. "My advice to those who are pursuing careers in technology is to really think about the work you're driving and why it matters. Believe that you can make it happen and go after it with boldness and tenacity. And remember that success doesn't happen overnight, be persistent and ask yourself what you can do to push to the next level each day," said Nadella, who is a cricket buff and loves running.
+He says about his journey” When I think back, I never grew up thinking that I'll go west of Mumbai and then I land up in Wisconsin.<br><br>
+Believe me, my journey has not been a simple journey of progress. There have been many ups and downs and it is the choices that I made at each of those times  that have helped shape what I have achieved”.
+He continues that as a youth prepare to change the world, the opportunity before you is unparalleled.
+All of us  represent a multi-disciplinary approach to innovation - and that will change the future.
+The mobile first, cloud first is a very rich canvas for innovation - it is not the device that is mobile, it is the person that is mobile.<br><br>
+How can we create platforms, how can we be the tools provider so that others can realise their potential? Today we launched our commercial cloud services
+The energy you create around you is perhaps going to be the most important attribute -- in the long run EQ trumps IQ. Without being a source of energy for others very little can be accomplished.
+Every opportunity I got I took it as a learning experience.
+You have to fall in love with what you do because everything else then becomes so easy. Most importantly it is perhaps the best way to find meaning in what you do...<br><br>
+Lastly he ended his session with a
+Quotes Mahatma Gandhi - Live everyday as if it your last day but learn as if you are going to live forever...
+<br><br>
+<u><strong>Union Minister Smriti Irani says Satya Nadella is a difficult speaker to top</u></strong><br><br>
+She says “We are anxious today because there is a huge expectation from all of you (the youth).We recognize that expectation  and it is the youngsters of this country who gave us this mandate - this mandate is your mandate
+Satya spoke of IQ and EQ - I  bring in the GQ component - the governance component. We are making available open resources to all students from economically challenged backgrounds.I spoke this morning to Mr Nadella about the various initiatives we are undertaking.There are some who mock us at times for being overly dependent  on social media , on information technology dreams -- but we have seen the benefits of that.<br><br>
+She continued  that “The Army in Jammu and Kashmir through social media managed to provide support to 12000 people -- how technology can help us is some of the experiences I have shared today.
+All the youngsters who are watching us today, I hope through this transformation you will make your parents proud...<br>
+Satya quoted Gandhiji - let me quote him to say –“ Be the change you want to see.”<br><br>
+“This platform was given to us by a man who began by tinkering with his tools in a garage and I stand here as a representative of a person who began  as a tea-seller.
+Out do not others but your own potential.”<br><br>
+
+</p>
+							<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+
+
+<div class="projects-section" id="portfolio">
+				<div class="projects-section-head text-center">
+					<h3>Event Snapshots</h3>
+				</div>
+				 <ul id="filters" class="clearfix">
+						
+					<div id="portfoliolist">
+
+				<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/pic-24.jpg" class="swipebox"  title="Microsoft Talent India"> <img src="images/pic-24.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+
+		                </div>
+					</div>
+					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/pic-18.jpg" class="swipebox"  title="Mrs. Smriti Irani at the event"> <img src="images/pic-18.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+
+		                </div>
+					</div>					
+					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/pic-19.jpg" class="swipebox"  title="Mr. Nadella, Mrs. Irani and Mr. Bhaskar interacting with the students"><img src="images/pic-19.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+
+		                </div>
+					</div>
+				<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/pic-22.jpg" class="swipebox"  title="Students sharing space with Mr. Sarvasiddhi, Academic Head, Microsoft India"> <img src="images/pic-22.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+
+		                </div>
+					</div>
+
+
+						<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/pic-21.jpg" class="swipebox"  title="Student OF Dronacharya at the event"> <img src="images/pic-21.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+
+		                </div>
+					</div>
+					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/pic-17.jpg" class="swipebox"  title="Mr. Satya Nadella Addressing the Youth"> <img src="images/pic-17.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+                        </div>
+					</div>
+
+					<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/pic-23.jpg" class="swipebox"  title="Students of DCE with Ms. Rane Johnson, Research Head, Microsoft"> <img src="images/pic-23.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+
+		                </div>
+					</div>
+				<div class="portfolio card mix_all  wow bounceIn" data-wow-delay="0.4s" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/pic-20.jpg" class="swipebox"  title="Ms. Rane Johnson sharing her journey to Microsoft"> <img src="images/pic-20.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+
+		                </div>
+					</div>
+					<div class="clearfix"></div>					
+				</div>			
+<div class="clearfix"></div>	
+			</div>
+			<br><br><br><br>
+			
+				
+			</div>
+		</div>
+	
+			
+				
+			</div>
+		</div>
+		<div class="footer">
+			<div class="social-icons">
+				<div class="container">
+					<a href="https://www.facebook.com/pages/Microsoft-at-DCE/1515199975385109?ref=hl"><i class="f_facebook"></i></a>
+					<a href="#"><i class="f_youtube"></i></a>
+					<a href="https://www.linkedin.com/in/micdronacharya"><i class="f_linkedin"></i></a>
+					<a href="https://www.pinterest.com/dce_mic/"><i class="f_pinterest"></i></a>
+					<a href="https://www.behance.net/dcemic"><i class="f_behance"></i></a>
+					<a href="https://plus.google.com/u/0/117469827654236407589/posts"><i class="f_googlepluse"></i></a>
+					
+					
+				</div>
+			</div>
+		<div class="footer-top">
+				<div class="container">
+					<div class="col-md-3 footer-grid">
+						<h4>About Us</h4>
+						<p>We, at Dronacharya College of Engineering, are absolutely committed to serve the society and improve the mode of life by imparting high quality education in the field of Engineering and Management catering to the explicit and implicit needs of the students, society, humanity and industry. </p>
+					</div>
+					<div class="col-md-3 footer-grid">
+						<h4>Contact Us</h4>
+						<ul class="address">
+							<li><i class="f_phone"></i></li>
+							<li>0124 – 2375502, 2375503</li>
+						</ul>
+						<ul class="address">
+							<li><i class="f_msg"></i></li>
+							<li><a href="example@mail.com">micdrona@outlook.com</a></li>
+						</ul>
+						<ul class="address">
+							<li><i class="f_location"></i></li>
+							<li>Khentawas ,<br>Farrukh Nagar ,Gurgaon </li>
+						</ul>
+					</div>
+					<div class="col-md-3 footer-grid">
+						<h4>Website Developed By:</h4>
+						<ul>
+							<li><a href="https://plus.google.com/u/0/116465999441654905444/posts" target = "_blank"><b>Akshit Chauhan</b></a></li>
+							<li><a href="https://plus.google.com/+TeotiaVivek/posts" target = "_blank"><b>Vivek Teotia</b></a></li>
+							<li><a href="https://plus.google.com/107714632344281276458/posts" target = "_blank"><b> Dhruv Pahuja </b></a></li>
+	
+							
+						</ul>
+					</div>
+					
+					<div class="clearfix"></div>
+				</div>	
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="copyright text-center">
+						<p>Copyright &copy;  2015 All rights reserved | Dronacharya College of Engineering </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>
